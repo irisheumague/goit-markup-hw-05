@@ -100,6 +100,7 @@ img {
   font-weight: 800;
   letter-spacing: 0.04em;
   line-height: 1.17;
+  font-family: "Raleway", sans-serif;
 }
 
 /* checked */
@@ -124,7 +125,6 @@ img {
 /* checked */
 .nav-menu,
 .contacts-menu {
-  gap: 40px;
 }
 
 /* checked */
@@ -250,19 +250,14 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: -30px;
-  margin-top: -30px;
 }
 
 /* checked */
 .benefits .item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 .benefits .benefits-item:not(:last-child) {
-  margin-right: 24px;
 }
 
 /* checked */
@@ -306,15 +301,11 @@ img {
 .what-we-do {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  justify-content: space-between;
 }
 
 /* checked */
 .what-we-do .item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 /* checked */
@@ -324,7 +315,7 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
 }
 
 /* SECTION 4 OUR TEAM SECTION */
@@ -343,16 +334,13 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   padding-bottom: 30px;
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 /* checked */
 .team {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  justify-content: space-between;
 }
 
 /* checked */
@@ -394,6 +382,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.team-list .link:hover,
+.team-list .link:focus {
+  background-color: var(--oceancolor);
 }
 
 .team-list-item {
@@ -486,7 +479,7 @@ img {
   color: var(--cloud);
   font-size: 16px;
   font-weight: 400;
-  margin-top: 17.5px;
+  margin-top: 16px;
   display: flex;
 }
 
@@ -496,7 +489,6 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  margin-top: 17.5px;
 }
 
 .footer-container-1 .footer-description {
@@ -657,15 +649,11 @@ img {
 .projects {
   flex-wrap: wrap;
   display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
+  justify-content: space-between;
 }
 
 /* checked */
 .project-card {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
   margin-bottom: 48px;
   transition-property: box-shadow;
   transition-duration: 250ms;
